@@ -24,7 +24,6 @@ def check_trigger(cfg, short_sig, long_sig, ExitOB): #TODO: any rules on contrac
     long_thresh = cfg["thresholds"]["long"]
     short_thresh = cfg["thresholds"]["short"]
 
-    pnl = calc_trade_pnl(cfg, ExitOB)
 
     if state is None:
         if long_sig[0] < long_mean - long_std * long_thresh["open_std"]:
@@ -33,14 +32,14 @@ def check_trigger(cfg, short_sig, long_sig, ExitOB): #TODO: any rules on contrac
             return "openShort"
     
     elif state == "long":
-        if pnl < stoploss:
+        if calc_trade_pnl(cfg, ExitOB) < stoploss:
             return "stopLossLong"
         elif short_sig[0] > long_mean + long_std * long_thresh["takeprofit_std"]:
             return "takeProfitLong"
 
         #else: pass
     elif state == "short":
-        if pnl < stoploss:
+        if calc_trade_pnl(cfg, ExitOB) < stoploss:
             return "stopLossShort"
         elif long_sig[0] > short_mean - short_std * short_thresh["takeprofit_std"]:
             return "takeProfitShort"

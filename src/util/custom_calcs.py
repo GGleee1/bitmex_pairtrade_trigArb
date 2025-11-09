@@ -155,7 +155,7 @@ def calc_impact_px(cfg, ordBk_f_t, notionalUSD, side): #ordBk_f_t is formatted o
         return numerator/accumCont, accumCont, accumUSD #impact price, size to order
 
 def calc_ticker_pnl(cfg, ticker, ExitOB_t): #ExitOB is formatted orderBook of one ticker
-    qty = cfg["position"][ticker]["qty"]
+    qty = abs(cfg["position"][ticker]["qty"])
     pos_state = cfg["position"]["state"]
     entry_px = cfg["position"][ticker]["avgPx"]
 
@@ -217,6 +217,21 @@ def det_notl_dir(t, notl_long, notl_short, side):
         return notl_long
     else: #"short"
         return notl_short
+
+def get_executed_notionalUSD(cfg, symbol):
+    state = cfg["position"]["state"]
+    ti = cfg["ticker_info"][symbol]
+    port = ti["portfolio"]
+    rel_dir = ti["rel_direction"]
+
+    match (state, port, rel_dir):
+        case ("long", "A", 1)|("short", "A", -1)|("long", "B", -1)|("short", "B", 1):
+            return ti["impact_px"]["USD_ask"]
+        case ("short", "A", 1)|("long", "A", -1)|("short", "B",-1)|("long", "B", 1):
+            return ti["impact_px"]["USD_bid"]
+        case _:
+            return False
+            
     
     
 
