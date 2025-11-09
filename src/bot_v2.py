@@ -47,7 +47,7 @@ class processor:
             self.ordBook_rdy[t].wait()
         lock.acquire()
         self.min_notl_short = cc.calc_min_notl(self.cfg, self.orderBook, "short")
-        self.min_notl_long = cc.calc_min_notl(self.cfg, self.ordBook_rdy, "long")    
+        self.min_notl_long = cc.calc_min_notl(self.cfg, self.orderBook, "long")    
         self.min_notionals_rdy.set()
         lock.release()
 
@@ -133,17 +133,17 @@ class processor:
             case "openLong":
                 if trig.check_min_qty(self.cfg, "long"):
                     logger.info(message); botu.noti(self.webbook, message)
-                    trade =self.trade_pair("long")
-                if trade:
-                    self.update_cfg_position()
+                    trades =self.trade_pair("long")
+                if trades:
+                    self.update_cfg_position(trades, "long")
                     logger.info(success); botu.noti(self.webbook, success)
 
             case "openShort":
                 if trig.check_min_qty(self.cfg, "short"):
                     logger.info(message); botu.noti(self.webbook, message)
-                    trade =self.trade_pair("short")
-                if trade:
-                    self.update_cfg_position()
+                    trades =self.trade_pair("short")
+                if trades:
+                    self.update_cfg_position(trades, "short")
                     logger.info(success); botu.noti(self.webbook, success)
 
             case "stopLossLong"|"takeProfitLong"|"stopLossShort"|"takeProfitShort":
@@ -161,8 +161,11 @@ class processor:
                 if not pos: #empty list returned when no open pos 
                     self.reset_cfg_position()
                     logger.info("Pending orders cleared, position reset to None")
-            case _:
+            case None:
                 pass
+            
+            case _:
+                logger.info("Unhandled value returned from trigger_rules.check_trigger")
         
         #update ref_vals
         botu.update_ref_vals(self.cfg)
@@ -177,10 +180,11 @@ class processor:
         
         self.min_notionals_rdy.clear()
         
-        #lock.release()
         pass
 
     def reset_cfg_position(self):
+        self.cfg["position"]["state"]=None
+
         for k in self.cfg["position"]:
             if k in self.cfg["ticker_list"]:
                 self.cfg["position"].update(
@@ -192,9 +196,23 @@ class processor:
                 )
         pass
 
-    def update_cfg_position(self):
+    def update_cfg_position(self, trades, state):
+        for r in trades:
+            symbol = r[0]["symbol"]
+            notionalUSD = cc.get_executed_notionalUSD(self.cfg, symbol, state)
+            if not notionalUSD:
+                logger.info("Unhandled combination of state, portfolio, and relative_direction received from custom_calcs.get_executed_notionalUSD.\nUsing self.min_notl_long/short as next best est.")
+                notionalUSD = self.min_notl_long if state=="long" else self.min_notl_short #using next best estimated of notionalUSD traded for that ticker
+            else:
+                self.cfg["position"][symbol].update(
+                    {
+                        "avgPx":r[0]["avgPx"],
+                        "qty":r[0]["orderQty"],
+                        "notionalUSD": notionalUSD
+                    }
+                )
         pass
-        
+
     #wrapper to validate trade
     #cancel or close orders are placed in threads to avoid my_order_mgr calling exit(1) from terminating main thread. 
     def _validate_trade(fn):
@@ -225,7 +243,7 @@ class processor:
             else:                
                 if all(r[1]==200 for r in res) and all(r[0]["ordStatus"] == "Filled" for r in res): #both orders sent and filled
                     botu.noti(self_arg.webhook, "All orders in trade_pair sent and filled.")
-                    return True
+                    return res #True
                 else: 
                     botu.noti(self_arg.webhook, "Unhandled exception caught in trade_pair.\nManual order & position handling required.")
                     return False       
@@ -317,6 +335,5 @@ class processor:
 
         threads.clear()
         return responses
-
 
 
