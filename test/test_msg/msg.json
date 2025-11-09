@@ -1,0 +1,1404 @@
+{
+    "orderBookL2": [
+        {
+            "symbol": "ETHUSDM24",
+            "id": 27489122016,
+            "side": "Sell",
+            "size": 200,
+            "price": 5020.2,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 26263976517,
+            "side": "Sell",
+            "size": 10,
+            "price": 4934.3,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 26263984766,
+            "side": "Sell",
+            "size": 10,
+            "price": 4786.5,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 26517438453,
+            "side": "Sell",
+            "size": 10,
+            "price": 4720,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 26517333402,
+            "side": "Sell",
+            "size": 10,
+            "price": 4650,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 26517349107,
+            "side": "Sell",
+            "size": 10,
+            "price": 4590,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 26517365455,
+            "side": "Sell",
+            "size": 10,
+            "price": 4540,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 24424334759,
+            "side": "Sell",
+            "size": 10,
+            "price": 4500,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 26517400353,
+            "side": "Sell",
+            "size": 10,
+            "price": 4470,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 26517413774,
+            "side": "Sell",
+            "size": 10,
+            "price": 4450,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 27038523445,
+            "side": "Sell",
+            "size": 10,
+            "price": 4430,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28768424926,
+            "side": "Sell",
+            "size": 1,
+            "price": 4355.2,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28773909007,
+            "side": "Sell",
+            "size": 1,
+            "price": 3857.9,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28086780672,
+            "side": "Sell",
+            "size": 5,
+            "price": 3754.75,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28086776399,
+            "side": "Sell",
+            "size": 5,
+            "price": 3749.75,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28509838557,
+            "side": "Sell",
+            "size": 40,
+            "price": 3740.2,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28739984051,
+            "side": "Sell",
+            "size": 4,
+            "price": 3738.7,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28331430674,
+            "side": "Sell",
+            "size": 69,
+            "price": 3689,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775808219,
+            "side": "Sell",
+            "size": 1,
+            "price": 3603.85,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775803690,
+            "side": "Sell",
+            "size": 416,
+            "price": 3557,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775669969,
+            "side": "Sell",
+            "size": 416,
+            "price": 3545.35,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28667370411,
+            "side": "Sell",
+            "size": 4,
+            "price": 3538.7,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776430406,
+            "side": "Sell",
+            "size": 423,
+            "price": 3517.75,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776051734,
+            "side": "Sell",
+            "size": 420,
+            "price": 3506.25,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776385402,
+            "side": "Sell",
+            "size": 389,
+            "price": 3482.85,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775808315,
+            "side": "Sell",
+            "size": 1,
+            "price": 3478,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775926505,
+            "side": "Sell",
+            "size": 345,
+            "price": 3471.65,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776378690,
+            "side": "Sell",
+            "size": 246,
+            "price": 3450,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776412672,
+            "side": "Sell",
+            "size": 173,
+            "price": 3429.95,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775808217,
+            "side": "Sell",
+            "size": 1,
+            "price": 3414.7,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775858278,
+            "side": "Sell",
+            "size": 98,
+            "price": 3414.3,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775844656,
+            "side": "Sell",
+            "size": 3,
+            "price": 3411.65,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776372580,
+            "side": "Sell",
+            "size": 15,
+            "price": 3395.1,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775939853,
+            "side": "Sell",
+            "size": 5000,
+            "price": 3392.3,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775961460,
+            "side": "Sell",
+            "size": 3,
+            "price": 3383.55,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776399580,
+            "side": "Sell",
+            "size": 46,
+            "price": 3378.95,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776400735,
+            "side": "Sell",
+            "size": 3,
+            "price": 3373.85,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776056683,
+            "side": "Sell",
+            "size": 46,
+            "price": 3370.05,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776391963,
+            "side": "Sell",
+            "size": 400,
+            "price": 3365.2,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776058549,
+            "side": "Sell",
+            "size": 3,
+            "price": 3362.25,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775179019,
+            "side": "Sell",
+            "size": 45,
+            "price": 3358.65,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776322646,
+            "side": "Sell",
+            "size": 5000,
+            "price": 3356,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28770821305,
+            "side": "Sell",
+            "size": 169,
+            "price": 3353.9,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776373949,
+            "side": "Sell",
+            "size": 38,
+            "price": 3351.95,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775806800,
+            "side": "Sell",
+            "size": 1,
+            "price": 3350.7,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776418400,
+            "side": "Sell",
+            "size": 12,
+            "price": 3350.05,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28771436299,
+            "side": "Sell",
+            "size": 169,
+            "price": 3346.5,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776080109,
+            "side": "Sell",
+            "size": 34,
+            "price": 3343.95,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776079942,
+            "side": "Sell",
+            "size": 11,
+            "price": 3343.45,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776399549,
+            "side": "Sell",
+            "size": 3,
+            "price": 3342.55,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775542505,
+            "side": "Sell",
+            "size": 40,
+            "price": 3341.45,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28772118840,
+            "side": "Sell",
+            "size": 170,
+            "price": 3339.15,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776051626,
+            "side": "Sell",
+            "size": 10,
+            "price": 3334.6,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28772945135,
+            "side": "Sell",
+            "size": 170,
+            "price": 3331.85,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775844654,
+            "side": "Sell",
+            "size": 34,
+            "price": 3331,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776338892,
+            "side": "Sell",
+            "size": 2,
+            "price": 3329.25,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775440679,
+            "side": "Sell",
+            "size": 27,
+            "price": 3326.7,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28772658196,
+            "side": "Sell",
+            "size": 170,
+            "price": 3324.55,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775844676,
+            "side": "Sell",
+            "size": 9,
+            "price": 3323.6,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775183417,
+            "side": "Sell",
+            "size": 28,
+            "price": 3320.3,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28773989045,
+            "side": "Sell",
+            "size": 171,
+            "price": 3317.25,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775913782,
+            "side": "Sell",
+            "size": 25,
+            "price": 3316.35,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28774624486,
+            "side": "Sell",
+            "size": 7,
+            "price": 3314.8,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775006308,
+            "side": "Sell",
+            "size": 2,
+            "price": 3310.3,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776389049,
+            "side": "Sell",
+            "size": 22,
+            "price": 3310,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28774405813,
+            "side": "Sell",
+            "size": 171,
+            "price": 3309.95,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775184994,
+            "side": "Sell",
+            "size": 25,
+            "price": 3307.25,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28774563301,
+            "side": "Sell",
+            "size": 171,
+            "price": 3302.7,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776265275,
+            "side": "Sell",
+            "size": 18,
+            "price": 3302.6,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776487743,
+            "side": "Sell",
+            "size": 6,
+            "price": 3299.8,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28774758967,
+            "side": "Sell",
+            "size": 172,
+            "price": 3295.45,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776381634,
+            "side": "Sell",
+            "size": 5,
+            "price": 3292.1,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776418414,
+            "side": "Sell",
+            "size": 14,
+            "price": 3292,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775720136,
+            "side": "Sell",
+            "size": 1,
+            "price": 3291.7,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776373780,
+            "side": "Sell",
+            "size": 15,
+            "price": 3290.55,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28774955071,
+            "side": "Sell",
+            "size": 172,
+            "price": 3288.2,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775431389,
+            "side": "Sell",
+            "size": 10,
+            "price": 3285.3,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776299177,
+            "side": "Sell",
+            "size": 1,
+            "price": 3284,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776058570,
+            "side": "Sell",
+            "size": 3,
+            "price": 3283.85,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775189562,
+            "side": "Sell",
+            "size": 9,
+            "price": 3281.15,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28774972641,
+            "side": "Sell",
+            "size": 173,
+            "price": 3281,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775729908,
+            "side": "Sell",
+            "size": 7,
+            "price": 3276.35,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776421045,
+            "side": "Sell",
+            "size": 173,
+            "price": 3273.8,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776352277,
+            "side": "Sell",
+            "size": 25,
+            "price": 3273.2,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776399395,
+            "side": "Sell",
+            "size": 2,
+            "price": 3270.7,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776061222,
+            "side": "Sell",
+            "size": 4,
+            "price": 3266.65,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776373748,
+            "side": "Sell",
+            "size": 1,
+            "price": 3263.6,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776382472,
+            "side": "Sell",
+            "size": 3,
+            "price": 3263.05,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776402734,
+            "side": "Sell",
+            "size": 2,
+            "price": 3262.5,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776346155,
+            "side": "Sell",
+            "size": 1,
+            "price": 3262.35,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775992059,
+            "side": "Sell",
+            "size": 2,
+            "price": 3260.7,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776351301,
+            "side": "Sell",
+            "size": 8,
+            "price": 3256.95,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776351474,
+            "side": "Sell",
+            "size": 2,
+            "price": 3256.75,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776395814,
+            "side": "Sell",
+            "size": 2,
+            "price": 3256.25,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776462146,
+            "side": "Buy",
+            "size": 2,
+            "price": 3249.9,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776462042,
+            "side": "Buy",
+            "size": 2,
+            "price": 3249.4,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776349604,
+            "side": "Buy",
+            "size": 8,
+            "price": 3240.75,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776487309,
+            "side": "Buy",
+            "size": 2,
+            "price": 3240.65,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776348589,
+            "side": "Buy",
+            "size": 2,
+            "price": 3235.7,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776400648,
+            "side": "Buy",
+            "size": 1,
+            "price": 3234.6,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776306536,
+            "side": "Buy",
+            "size": 5,
+            "price": 3232.85,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776276935,
+            "side": "Buy",
+            "size": 1,
+            "price": 3232.55,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775980839,
+            "side": "Buy",
+            "size": 175,
+            "price": 3230.9,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776389035,
+            "side": "Buy",
+            "size": 1,
+            "price": 3225.95,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776056784,
+            "side": "Buy",
+            "size": 6,
+            "price": 3225.65,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776350388,
+            "side": "Buy",
+            "size": 30,
+            "price": 3224.5,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775182101,
+            "side": "Buy",
+            "size": 176,
+            "price": 3223.8,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776265138,
+            "side": "Buy",
+            "size": 2,
+            "price": 3219.3,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775024921,
+            "side": "Buy",
+            "size": 176,
+            "price": 3216.75,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775966915,
+            "side": "Buy",
+            "size": 1,
+            "price": 3214.35,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775520224,
+            "side": "Buy",
+            "size": 8,
+            "price": 3213.45,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775188105,
+            "side": "Buy",
+            "size": 11,
+            "price": 3213,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775024953,
+            "side": "Buy",
+            "size": 176,
+            "price": 3209.65,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776373916,
+            "side": "Buy",
+            "size": 3,
+            "price": 3209.35,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775651580,
+            "side": "Buy",
+            "size": 13,
+            "price": 3205,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776399619,
+            "side": "Buy",
+            "size": 1,
+            "price": 3203.65,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775002528,
+            "side": "Buy",
+            "size": 177,
+            "price": 3202.6,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775726296,
+            "side": "Buy",
+            "size": 20,
+            "price": 3200.2,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775184996,
+            "side": "Buy",
+            "size": 15,
+            "price": 3199.2,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776389043,
+            "side": "Buy",
+            "size": 14,
+            "price": 3197.15,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776322642,
+            "side": "Buy",
+            "size": 5000,
+            "price": 3196.65,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28773478203,
+            "side": "Buy",
+            "size": 177,
+            "price": 3195.6,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775635550,
+            "side": "Buy",
+            "size": 1,
+            "price": 3194.5,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776173990,
+            "side": "Buy",
+            "size": 4,
+            "price": 3193.25,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775002606,
+            "side": "Buy",
+            "size": 178,
+            "price": 3188.55,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775421548,
+            "side": "Buy",
+            "size": 17,
+            "price": 3186.4,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775183395,
+            "side": "Buy",
+            "size": 18,
+            "price": 3186.2,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776400671,
+            "side": "Buy",
+            "size": 5,
+            "price": 3185.55,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28774672998,
+            "side": "Buy",
+            "size": 178,
+            "price": 3181.55,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776346125,
+            "side": "Buy",
+            "size": 6,
+            "price": 3178.95,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776435189,
+            "side": "Buy",
+            "size": 400,
+            "price": 3177.5,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775264098,
+            "side": "Buy",
+            "size": 21,
+            "price": 3176.95,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28774855564,
+            "side": "Buy",
+            "size": 178,
+            "price": 3174.6,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776418422,
+            "side": "Buy",
+            "size": 2,
+            "price": 3172.95,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775181325,
+            "side": "Buy",
+            "size": 24,
+            "price": 3172.5,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776418374,
+            "side": "Buy",
+            "size": 7,
+            "price": 3169.4,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28774672935,
+            "side": "Buy",
+            "size": 179,
+            "price": 3167.6,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775939850,
+            "side": "Buy",
+            "size": 5000,
+            "price": 3166.85,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775924849,
+            "side": "Buy",
+            "size": 27,
+            "price": 3165,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775002625,
+            "side": "Buy",
+            "size": 206,
+            "price": 3160.65,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775961625,
+            "side": "Buy",
+            "size": 30,
+            "price": 3157.65,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776395726,
+            "side": "Buy",
+            "size": 8,
+            "price": 3155.75,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776450971,
+            "side": "Buy",
+            "size": 180,
+            "price": 3153.75,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776058542,
+            "side": "Buy",
+            "size": 9,
+            "price": 3151.8,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776346025,
+            "side": "Buy",
+            "size": 30,
+            "price": 3150.1,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775961453,
+            "side": "Buy",
+            "size": 2,
+            "price": 3147.6,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775179003,
+            "side": "Buy",
+            "size": 30,
+            "price": 3146.5,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776395626,
+            "side": "Buy",
+            "size": 2,
+            "price": 3136.55,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775177701,
+            "side": "Buy",
+            "size": 30,
+            "price": 3133.05,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28758999365,
+            "side": "Buy",
+            "size": 7,
+            "price": 3128.9,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776346091,
+            "side": "Buy",
+            "size": 29,
+            "price": 3124.75,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775875271,
+            "side": "Buy",
+            "size": 30,
+            "price": 3119.6,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775969263,
+            "side": "Buy",
+            "size": 2,
+            "price": 3115.95,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775898792,
+            "side": "Buy",
+            "size": 110,
+            "price": 3109.55,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776389239,
+            "side": "Buy",
+            "size": 2,
+            "price": 3105.95,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775973121,
+            "side": "Buy",
+            "size": 191,
+            "price": 3095.3,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775844475,
+            "side": "Buy",
+            "size": 2,
+            "price": 3092.85,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775752162,
+            "side": "Buy",
+            "size": 323,
+            "price": 3062.9,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28776385390,
+            "side": "Buy",
+            "size": 361,
+            "price": 3052.3,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28476540534,
+            "side": "Buy",
+            "size": 7,
+            "price": 3050,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775066271,
+            "side": "Buy",
+            "size": 412,
+            "price": 3034,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28774825184,
+            "side": "Buy",
+            "size": 412,
+            "price": 3015.3,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775815694,
+            "side": "Buy",
+            "size": 416,
+            "price": 2996.2,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775890675,
+            "side": "Buy",
+            "size": 416,
+            "price": 2984,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28775838964,
+            "side": "Buy",
+            "size": 416,
+            "price": 2962.8,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28758999709,
+            "side": "Buy",
+            "size": 7,
+            "price": 2953.4,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28476452466,
+            "side": "Buy",
+            "size": 8,
+            "price": 2930,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28193681488,
+            "side": "Buy",
+            "size": 500,
+            "price": 2889.15,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28158087324,
+            "side": "Buy",
+            "size": 1,
+            "price": 2813.9,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28193686372,
+            "side": "Buy",
+            "size": 500,
+            "price": 2810.55,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28570600311,
+            "side": "Buy",
+            "size": 500,
+            "price": 2755.4,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28655045026,
+            "side": "Buy",
+            "size": 50,
+            "price": 2720,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28570596899,
+            "side": "Buy",
+            "size": 500,
+            "price": 2704.6,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 28758999944,
+            "side": "Buy",
+            "size": 7,
+            "price": 2649.6,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 26705961693,
+            "side": "Buy",
+            "size": 11666,
+            "price": 0.15,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        }
+    ]
+}

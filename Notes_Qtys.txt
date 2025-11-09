@@ -1,0 +1,88 @@
+ETHZ25
+Price: ETH/BTC
+Notional: ETH
+cont sz: 0.00001 ETH
+min sz: 0.01 ETH -> min cont: 1000
+ordebook data: ETH/BTC rate, #num contracts
+
+ETHUSDZ25
+Price: ETH/USD
+Notional: ETH
+cont sz: 0.001 mBTC / USD price -> in notional: 
+min sz: variable -> min cont: 1
+oderbook data : ETH price, #num contracts
+
+XBTZ25
+Price: XBT/USD
+Notional: USD
+cont sz: 1USD
+min sz: 100USD -> min cont: 100
+orderbook data: BTC price, #num contracts
+
+Orderbook data: {Price, #num contracts}
+
+Price -> msg_in -> impact_px -> signal ETH/BTC
+	Convert my USD notional to contracts:
+		ETZ25:
+			USD notional = #num contracts * cont sz * .BETH
+			#num contracts = USD notional / (cont sz * .BETH)
+		ETHUSDZ25:
+			USD notional = #num contracts * (ETH price in USD * 0.000001 BTC/USD) * .BXBT 
+			#num contracts = USD notional / ~
+		XBTZ25:
+			no conversion needed. 1 contract = 1 USD
+
+
+Hedge ratio (ETHZUSD and XBTZ portfolio)
+	
+
+
+PnL calc	
+
+
+to do today:
+	x1. add contract spec fields to tickers in cfg -> for 3,4
+	x2. amend bot to also take in index prices -> for 3,4
+	-2. fn to derive hedge ratio (for portfolio B) -> for 3,4
+	x3. amend calc_impact_px to convert size from my USD notional to contracts
+	x4. adjusting trade size : lot size multiples
+	x5. pnl calculation -> abs figure in USD
+	x5.5 Add calculation for PnL%. Now account for fees. Need to populate reference entry USD amount (margin reserved at entry)
+	x6. trigger rules
+	xCheckpoint: Test custom cals funcs
+	x7. complete self.is_triggered
+	x7.5: current implementation of cc.get_common_qty is unecessarily re-doing calcs from orderbook.
+	x	Try comparing USD_ask/bid on cfg impact_px and making increments from those values.
+	x 	To test cc.calc_min_notl, cc.det_notl_dir
+	x	Rewrite test for cc.calc_impact_px  
+	x8. trade_pair, close_pair, validate_trade, validate_trade_close
+	x 8.5: trade rules: order size >= min trade size. Replaced self._noti with botu.noti
+Checkpoint, test out trade functions (incl. noti connectivity)
+		x tested trade and validation funcs, OM funcs
+	--->Stoped Here. to test trig.check_min_qty
+	9. order to populate cfg.entry_px with avgPx, orderQty,
+	9.5 reset_cfg, update_cfg_position
+	10. periodic saving of cfg and logs
+---> Checkpoint, test that bot_v2.py flows without error 
+	11. tracking for PnL and signal for strategy evaluation
+	12. force reset feature unsets all threading.Event objects
+
+*on 3,4 -> ratio of contracts to enter is wrt to fixed notional.
+If scale amount of contracts (same ratio), the notional involved scales too.
+This affects the ratio of contracts to enter.
+Think of a rework that can set num contracts to enter given the constraints.
+ - Fixed total notional amount available (and leverage fixed)
+ - USD notional per ticker must be the same
+ - Total notional used cannot exceed available
+ - Number of contracts per ticker is multiples of lot sz (or close to it)
+
+Implementation notes:
+notional (in orderbook ccy) per lot NPL = lot_sz * contract_sz["qty"]
+num_lots = orderbook_level_sz/NPL
+notional USD per lot UPL = per calcs above
+use/amend calc_impact_px to calc impact px and num lots per contract
+
+-> track num lots per contract
+Use this to calc average exit price for PnL 
+calulation of impact prices remains unchanged, it goes to signal.
+Trigger std distance should be far enough to account for some margin of error between signal and calc average exit price 

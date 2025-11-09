@@ -1,0 +1,109 @@
+{
+    "ticker_list":["ETHZ25", "ETHUSDZ25", "XBTZ25"],
+    "ticker_info":{
+        "ETHZ25":{
+            "portfolio":"A",
+            "rel_direction":1,
+            "ref_prices":[],
+            "impact_px":{},
+            "contract_sz": {"qty":0.00001, "ccy":"ETH"},
+            "lot_sz": 1000,
+            "maker_fees": null,
+            "taker_fees": null,
+            "settle_fees": null
+        },
+        "ETHUSDZ25":{
+            "portfolio":"B",
+            "rel_direction":1,
+            "ref_prices":[],
+            "impact_px":{},
+            "contract_sz": {"qty":1, "ccy":"0.000001 BTC per USD of contract price"},
+            "lot_sz": 1,
+            "maker_fees": null,
+            "taker_fees": null,
+            "settle_fees": null
+        },
+        "XBTZ25":{
+            "portfolio":"B",
+            "rel_direction":-1,
+            "ref_prices":[],
+            "impact_px":{},
+            "contract_sz": {"qty":1, "ccy":"USD"},
+            "lot_sz": 100,
+            "maker_fees": null,
+            "taker_fees": null,
+            "settle_fees": null
+        },
+        "comments": "+-1 of tickers refers to relative direction in their respective portfolio"
+    },
+    "index_info":{
+        ".BETH": null,
+        ".BXBT": null
+    },
+
+    "last_update": "2025-02-01T00:00:00.000Z",
+    "timestamp_format": "%Y-%m-%dT%H:%M:%S.%fZ",
+    "window_size":1,
+    "comments": "window_size is in days",
+    "update_interval": "1h",
+    "ref_signals":{
+        "short":{
+            "data":[], 
+            "mean": null,
+            "std": null
+        },
+        "long":{
+            "data":[],
+            "mean":null,
+            "std":null
+        }
+    },
+    "notional": 1000,
+    "thresholds":{
+        "short":{
+            "open_std":1.25,
+            "stoploss_pts":0.05,
+            "takeprofit_std":0.25
+        },
+        "long":{
+            "open_std":1.25,
+            "stoploss_pts":0.05,
+            "takeprofit_std":0.25
+        },
+        "comments": "stoploss_pts is decimal (0.05=5%)"
+        
+    },
+    "position":{
+        "state": null,
+        "signal": null,
+        "ETHZ25":{
+            "avgPx":null,
+            "qty":null,
+            "notionalUSD":null,
+            "exitOrdBk_side_per_entry_state": {
+                "long":"Sell",
+                "short": "Buy"
+            }
+        },
+        "ETHUSDZ25":{
+            "avgPx":null,
+            "qty":null,
+            "notionalUSD":null,
+            "exitOrdBk_side_per_entry_state": {
+                "long":"Buy",
+                "short": "Sell"
+            }
+        },
+        "XBTZ25":{
+            "avgPx":null,
+            "qty":null,
+            "notionalUSD":null,
+            "exitOrdBk_side_per_entry_state": {
+                "long":"Sell",
+                "short": "Buy"
+            }
+        },
+        "comments": "keys in exitOrdBk_side_per_entry_state refer to entered position at signal level, not ticker level."
+    },
+    "leverage":2
+}

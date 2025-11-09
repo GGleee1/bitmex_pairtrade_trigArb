@@ -1,0 +1,6 @@
+O_L = "Open long triggered"
+TP_L = "TakeProfit triggered on long"
+SL_L = "StopLoss triggered on long"
+O_S = "Open short triggered"
+TP_S = "TakeProfit triggered on short"
+SL_S = "StopLoss triggered on short"

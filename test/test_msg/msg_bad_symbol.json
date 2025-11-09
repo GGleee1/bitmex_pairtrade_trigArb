@@ -1,0 +1,20 @@
+{
+    "orderBookL2_25": [
+        {
+            "symbol": "ETHUSDM24",
+            "id": 27489122016,
+            "side": "Sell",
+            "size": 200,
+            "price": 5020.2,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        },
+        {
+            "symbol": "ETHUSDM24",
+            "id": 26705961693,
+            "side": "Buy",
+            "size": 11666,
+            "price": 0.15,
+            "timestamp": "2024-04-17T14:29:08.825Z"
+        }
+    ]
+}
