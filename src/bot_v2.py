@@ -129,7 +129,6 @@ class processor:
             message = f"Attempting {trigger}"
             success = f"{trigger} successful"
 
-        trade = False
         match trigger:
             case "openLong":
                 if trig.check_min_qty(self.cfg, "long"):
@@ -181,6 +180,21 @@ class processor:
         #lock.release()
         pass
 
+    def reset_cfg_position(self):
+        for k in self.cfg["position"]:
+            if k in self.cfg["ticker_list"]:
+                self.cfg["position"].update(
+                    {
+                        "avgPx":None,
+                        "qty":None,
+                        "notionalUSD":None
+                    }
+                )
+        pass
+
+    def update_cfg_position(self):
+        pass
+        
     #wrapper to validate trade
     #cancel or close orders are placed in threads to avoid my_order_mgr calling exit(1) from terminating main thread. 
     def _validate_trade(fn):
@@ -303,5 +317,6 @@ class processor:
 
         threads.clear()
         return responses
+
 
 
